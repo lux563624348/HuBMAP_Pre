@@ -1,1 +1,43 @@
-# TODO: Language dependent.
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+*.whl
+pip-wheel-metadata/
+
+# Virtual environments
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Testing caches
+.pytest_cache/
+.mypy_cache/
+.cache/
+
+# Coverage results
+htmlcov/
+.coverage
+.coverage.*
+
+# PyInstaller
+*.manifest
+*.spec
+
+# IDE/editor settings
+.idea/
+.vscode/
+*.sublime*
+
+# System files
+.DS_Store
+Thumbs.db
